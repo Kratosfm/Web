@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab3_A00818423</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+  <body>
+    <header class="navbar navbar-default">
+      <h1 class="todoTitle">
+        Todo List
+      </h1>
+    </header>
+    <main class="wrapper" role="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3>
+                  New todo
+                </h3>
+              </div>
+              <div class="panel-body">
+                <form class="todoForm">
+                  <fieldset>
+                    <textarea id="todoText" class="newTodo form-control"></textarea>
+                    <button id="Botonpost" type="submit" class="submitButton">
+                      Post Todo
+                    </button>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3>List of todo's</h3>
+              </div>
+              <div id="todoList" class="panel-body" class="listOfTodos">
+
+              </div>
+              <div class="buttons">
+                <button id="Botonclear" class="clearButton btn-info">
+                  Clear all Todo's
+                </button>
+                <button id="Botonmarcar" class="markAllButton btn-success">
+                  Mark all Todo's
+                </button>
+                <button id="Botonborrar" class="deleteButton btn-danger">
+                  Delete all Todo's
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer role="footer" class="footer">
+      Todo list application
+    </footer>
+    <script type="text/javascript" src="./js/formato.js"></script>
+  </body>
+</html>
