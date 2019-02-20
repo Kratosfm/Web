@@ -1,0 +1,49 @@
+img {
+	width: 50px;
+  height: 50px;
+	margin-right: 10px;
+}
+body{
+  background-color: #045FB4;
+}
+a{
+  color: black;
+}
+
+header {
+	text-align: center;
+	color: white;
+	background-color: #045FB4;
+	padding: 3px;
+	margin: 8;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+nav{
+  padding: 10px;
+  cursor: pointer;
+}
+
+section{
+  background-color: white;
+	padding: 10px 10px;
+}
+
+th{
+  background-color: #81DAF5;
+}
+
+td{
+  background-color: white;
+
+}
+
+footer{
+  text-align: right;;
+  color: black;
+  background-color: #FFBF00;
+}
